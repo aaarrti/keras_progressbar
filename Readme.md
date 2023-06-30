@@ -15,6 +15,3 @@ for identifier, sliced in keras_pbar(df.group_by("id")):
     # Do some time consuming processing.
     time.sleep(2)
 ```
-### Notes
-It does not directly depend on `tensorflow`, so you can install it without.
-But probably during import time, it will fail, when `keras` tries to import `tensorlfow`.
