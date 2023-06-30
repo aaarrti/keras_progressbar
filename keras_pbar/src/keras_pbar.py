@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from typing import Sized, Iterable, TypeVar
-from keras.utils import Progbar
+from keras_pbar.src.pbar import Progbar
 
 T = TypeVar("T")
 
